@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client'
 // importing components from other file
 import { Greeting, Tarjeta } from './Greeting'
 // we can call it whatever we want and always imports the default
-import X, { Navbar } from './Product'
+import X, { Navbar, App } from './Product'
 import { Greet, SimpleGreet } from './Props'
 
 // we select the root element in the html file
@@ -30,6 +30,7 @@ root.render(
         <Tarjeta />
         <X />
         <Navbar />
+        <App />
 
         {/* React Props, how we pass props(parameters) to components(functions) */}
         <Greet name="Julia" />
